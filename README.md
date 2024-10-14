@@ -1,0 +1,1 @@
+# 241010PYT172VAK Paskaitų medžiaga
