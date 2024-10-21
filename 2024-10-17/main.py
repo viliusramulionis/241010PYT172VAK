@@ -84,3 +84,6 @@ print(' '.join(zodziai))
 # Funkcija input()
 skaicius = input("Įveskite skaičių:")
 print("Įvestas skaičius:", skaicius)
+
+skaicius = input("Įveskite skaičių:")
+print("Įvestas skaičius:", skaicius)
