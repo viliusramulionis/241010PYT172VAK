@@ -115,3 +115,4 @@ if vardas :
     print("Įvestas vardas: ", vardas)
 else :
     vardas = input("Įveskite vardą: ")
+
