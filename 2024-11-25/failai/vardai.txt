@@ -1,0 +1,5 @@
+Petras;Petrauskas;44
+Jonas;Jonaitis;32
+Kestas;Kestutaiti;18
+Joana;Joaniene;54
+Marius;Marietis;19
