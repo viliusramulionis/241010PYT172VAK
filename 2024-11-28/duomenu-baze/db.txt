@@ -1,0 +1,9 @@
+21
+ID;UZDUOTIS;PABAIGTA
+1;Išvesti šunį;0
+2;Išvesti šunį;0
+3;Išvesti šunį;0
+16;Išvesti šunį;0
+17;Išvesti šunį;0
+19;Išvesti šunį;0
+20;Išplauti indus;0
