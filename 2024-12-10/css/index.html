@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Cascading Style Sheets</title>
+    <link href="style.css" rel="stylsheet">
+    <style>
+        /* Elemento Selektorius: */
+        h1 {
+            /* CSS savybės */
+            color: rgb(255, 0, 0);
+        } 
+
+        span {
+            color: rgb(173, 11, 173);
+        }
+
+        strong {
+            color: orange;
+        }
+
+        /* Patikslintas kelias iki norimo elemento: */
+        h1 strong {
+            color: green;
+        }
+
+        /* Norodomas elementų kiekis neribotas */
+        html body h1 strong {
+            color: blue;
+        }
+
+        /* Kai norime pasirinkti elementą pagal klasę rašome tašką */
+        .speciali-antraste {
+            color: rgb(127, 127, 3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>
+        <span>Lorem ipsum dolor sit amet.</span>
+    </h1>
+    <h1>
+        <strong>Lorem ipsum dolor sit amet.</strong>
+    </h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1 class="speciali-antraste">Lorem ipsum dolor sit amet.</h1>
+</body>
+</html>
