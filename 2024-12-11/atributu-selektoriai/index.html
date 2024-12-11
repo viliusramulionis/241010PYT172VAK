@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributų selektoriai</title>
+    <style>
+        /* Jeigu norime filtruoti pagal atributa: */
+        [pavadinimas] {
+            color: red;
+        }
+
+        /* Jeigu norime filtruoti pagal elemento atributa: */
+        div[pavadinimas] {
+            color: red;
+        }
+
+        p[pavadinimas] {
+            color: purple;
+        }
+
+        /* Jeigu norime filtruoti pagal atributa ir jo reiksme */
+        p[pavadinimas="vietinis"] {
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div pavadinimas>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque eveniet fuga dignissimos sint commodi sed ducimus. Libero dignissimos amet, dicta qui nulla, enim vel ut ab tenetur, sed sapiente cupiditate.rem10</div>
+    <p pavadinimas>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque eveniet fuga dignissimos sint commodi sed ducimus. Libero dignissimos amet, dicta qui nulla, enim vel ut ab tenetur, sed sapiente cupiditate.rem10</p>
+    <p pavadinimas="vietinis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque eveniet fuga dignissimos sint commodi sed ducimus. Libero dignissimos amet, dicta qui nulla, enim vel ut ab tenetur, sed sapiente cupiditate.rem10</p>
+</body>
+</html>
