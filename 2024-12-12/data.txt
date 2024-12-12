@@ -1,0 +1,6 @@
+Pavadinimas: Long vodka, Tipas: Alcoholic, Kategorija Ordinary Drink
+Pavadinimas: Long Island Tea, Tipas: Alcoholic, Kategorija Ordinary Drink
+Pavadinimas: A Furlong Too Late, Tipas: Alcoholic, Kategorija Ordinary Drink
+Pavadinimas: Long Island Iced Tea, Tipas: Alcoholic, Kategorija Ordinary Drink
+Pavadinimas: 3-Mile Long Island Iced Tea, Tipas: Alcoholic, Kategorija Ordinary Drink
+Pavadinimas: Radioactive Long Island Iced Tea, Tipas: Alcoholic, Kategorija Ordinary Drink

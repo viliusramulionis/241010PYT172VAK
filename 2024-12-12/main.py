@@ -11,7 +11,9 @@
 
 import requests
 
-url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=lim"
+name = input("Įveskite norimo kokteilio pavadinimą: ")
+
+url = f"https://www.thecocktaildb.com/api/json/v1/1/search.php?s={name}"
 
 response = requests.get(url)
 
@@ -26,5 +28,10 @@ data = response.json()
 # Pačio pirmo gėrimo pavadinimo susigrąžinimas
 # print(data["drinks"][0]["strDrink"])
 
+f = open("data.txt", "w")
+
 for drink in data["drinks"] :
-    print(f"Pavadinimas: {drink["strDrink"]}, Tipas: {drink["strAlcoholic"]}")
+    # print(drink)
+    print(f"Pavadinimas: {drink["strDrink"]}, Tipas: {drink["strAlcoholic"]}, Kategorija {drink["strCategory"]}")
+
+    f.write(f"Pavadinimas: {drink["strDrink"]}, Tipas: {drink["strAlcoholic"]}, Kategorija {drink["strCategory"]}\n")
