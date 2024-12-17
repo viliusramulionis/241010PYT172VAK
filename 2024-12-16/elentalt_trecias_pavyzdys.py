@@ -39,7 +39,6 @@ print(get_data(base_url, next_url))
 
 # *Nuotraukos adresas
 # *Pavadinimas
-# *Pavadinimas
 # *Kaina
 # *Adresas
 # *Aprašymas
